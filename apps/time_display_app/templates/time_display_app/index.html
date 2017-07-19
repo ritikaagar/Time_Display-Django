@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Display App</title>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'time_display_app/style.css' %}" media="screen" title="no title"  charset="utf-8">
+
+</head>
+<body>
+	<fieldset>
+		<h2>
+			Current time and date:
+		</h2>
+	</fieldset>
+	<div class = "line1">
+		<p>{{time}}</p>
+		<p>{{day}}</p>
+	</div>
+
+</body>
+</html>
